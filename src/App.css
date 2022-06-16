@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #5184ed;
+  width: 100%;
+}
+.input {
+  width: 100%;
+  height: 38px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-size: 14px;
+  color: #000;
+  border: 1px solid #ebebeb;
+  background: #f2f2f2;
+  outline: 0 !important;
+}
+.form-group{
+  margin: 0 0 15px;
+}
+.btn1 {
+  background: #1548b0;
+  border: 1px solid #1548b0;
+  border-radius: 6px;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 15px;
+  padding: 6px 20px;
+  transition: all 0.3s;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+.btn1:hover{
+  box-shadow: rgb(21 72 176 / 30%) 0px 2px 17px;
+}
+.ls-form {
+  background: #fff;
+  padding: 30px 20px;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 18%);
+  border-radius: 6px;
+  width: 100%;
+  max-width: 370px;
+  text-align: left;
+}
+.heading {
+  margin: 0 0 20px;
+}
+.heading h2 {
+  font-size: 22px;
+  color: #000;
+  margin:0 0 5px;
+}
+.heading p {
+  font-size: 14px;
+  color: #a1a0a0;
+  font-weight: 400;
+  margin: 0;
+}
+.form-group.with-icon {
+  position: relative;
+}
+.form-group.with-icon i {
+  position: absolute;
+  left: 8px;
+  top: 10px;
+  color: #1548b0;
+  font-size: 15px;
+}
+.form-group.with-icon .input {
+  padding-left: 30px;
+}
+.login-signup-wrapper .input {
+  background: #f2f2f2;
+}
+.newUserRegistr {
+  text-align: center;
+  margin: 25px 0 0;
+  font-size: 14px;
+  color: #1548b0;
+  font-weight: 400;
+}
+.newUserRegistr span{
+  cursor: pointer;
+}
+.login-btn .btn1{
+  width: 100%;
+  padding: 8px 20px;
+}
+
+/***table***/
+.table{
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 18%);
+  border-radius: 6px;
+  width: 100%;
+  max-width: 500px;
+}
+.table table{
+  width: 100%;
+}
+.table table thead{
+  background: #5184ed;
+}
+.table table tr td{
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+  font-weight: 600;
+}
+.table table thead tr td{
+  color: #fff;
+}
+.wrong{
+  color: red;
+  font-size: 14px;
+}
